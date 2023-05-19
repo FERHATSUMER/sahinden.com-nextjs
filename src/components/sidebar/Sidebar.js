@@ -1,13 +1,8 @@
 import { MdOutlineRssFeed } from "react-icons/md";
-import { GiShop } from "react-icons/gi";
+import { RiCarFill } from "react-icons/ri";
 import { GrGamepad } from "react-icons/gr";
-import { TbHomeSearch } from "react-icons/tb";
-import {
-  BsFillBagFill,
-  BsFillCameraVideoFill,
-  BsFillBookmarkStarFill,
-  BsQuestionSquareFill,
-} from "react-icons/bs";
+import { TbHomeSearch, TbClockHour3 } from "react-icons/tb";
+import { BsFillExclamationCircleFill } from "react-icons/bs";
 
 import "./sidebar.css";
 import Link from "next/link";
@@ -23,8 +18,27 @@ function Sidebar() {
               Evim Yuvan Olsun
             </Link>
           </li>
-        </ul>
+          <li className="sidebarListItem">
+            <BsFillExclamationCircleFill className="sidebarIcon" />
+            <Link href="/" className="sidebarListItemText">
+              Acil Acil
+            </Link>
+          </li>
 
+          <li className="sidebarListItem">
+            <TbClockHour3 className="sidebarIcon" />
+            <Link href="/" className="sidebarListItemText">
+              Son 48 Saat / 1 Hafta / 1 Ay
+            </Link>
+          </li>
+
+          <li className="sidebarListItem">
+            <RiCarFill className="sidebarIcon" />
+            <Link href="/" className="sidebarListItemText">
+              Oto360
+            </Link>
+          </li>
+        </ul>
       </div>
     </div>
   );
