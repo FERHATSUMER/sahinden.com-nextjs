@@ -7,7 +7,8 @@ import { FaSearch } from "react-icons/fa";
 function Header() {
     return (
     <div className="header-container">
-        <img src="https://s0.shbdn.com/assets/images/sahibinden_logo_v13012023:a4a65c5ace0e80eac6171317531b4611.png"  alt="sahibinden-logo"/>
+        <img  className="img"
+        src="https://s0.shbdn.com/assets/images/sahibinden_logo_v13012023:a4a65c5ace0e80eac6171317531b4611.png"  alt="sahibinden-logo"/>
         <div className="input-container">
             <input 
             className="input"

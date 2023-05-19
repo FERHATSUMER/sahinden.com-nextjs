@@ -11,7 +11,8 @@
     background-color: #3f475f;
   }
   
-  .header-container img {
+  
+  .img {
     height: 40px;
   }
   
@@ -30,13 +31,14 @@
   }
   .detayli-arama{
     position: fixed;
-    top: 27px;
-    right: 555px;
+    top: 29px;
+    right: 565px;
     color: #fff;
     font-size: 12px;
   }
   
   .input {
+    top: 25px;
     background: #2f3546;
     width: 250px;
     border: none;
@@ -44,10 +46,7 @@
     padding: 8px 8px;
     color:#fff
   }  
-  .header-rightside {
-    display: flex;
-    align-items: center;
-  }
+  
   
   .right-title {
     margin-right: 10px;
@@ -66,9 +65,10 @@
   }
   
   .search-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
+    position: fixed;
+    top: 29px;
+    right: 669px;
+    color: #616574;
+    font-size: 17px;
   }
   
