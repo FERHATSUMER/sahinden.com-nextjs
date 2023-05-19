@@ -49,10 +49,11 @@
     align-items: center;
   }
   
-  .header-rightside a {
+  .right-title {
     margin-right: 10px;
     text-decoration: none;
-    color: #333;
+    color: #fff;
+    font-size: 13px;
   }
   
   .button {
