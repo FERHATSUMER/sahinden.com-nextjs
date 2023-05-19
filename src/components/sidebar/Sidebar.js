@@ -1,8 +1,12 @@
-import { MdOutlineRssFeed } from "react-icons/md";
+import { AiFillCar } from "react-icons/ai";
 import { RiCarFill } from "react-icons/ri";
 import { GrGamepad } from "react-icons/gr";
 import { TbHomeSearch, TbClockHour3 } from "react-icons/tb";
-import { BsFillExclamationCircleFill } from "react-icons/bs";
+import {
+  BsFillExclamationCircleFill,
+  BsFillHouseCheckFill,
+  BsHouseHeartFill
+} from "react-icons/bs";
 
 import "./sidebar.css";
 import Link from "next/link";
@@ -37,6 +41,42 @@ function Sidebar() {
             <Link href="/" className="sidebarListItemText">
               Oto360
             </Link>
+            <li className="li-title">S-Aracım</li>
+            <li className="li-title">Tümünü Göster</li>
+          </li>
+
+          <li className="sidebarListItem">
+            <BsFillHouseCheckFill className="sidebarIcon" />
+            <Link href="/" className="sidebarListItemText">
+              Emlak360
+            </Link>
+          </li>
+          <li className="sidebarListItem">
+            <BsHouseHeartFill className="sidebarIcon" />
+            <Link href="/" className="sidebarListItemText">
+              Emlak
+            </Link>
+            <li className="li-title">Konut</li>
+            <li className="li-title">Iş Yeri</li>
+            <li className="li-title">Arsa</li>
+            <li className="li-title">Konut Projeleri</li>
+            <li className="li-title">Bina</li>
+            <li className="li-title">Devre Mülk</li>
+            <li className="li-title">Turistlik yerler</li>
+          </li>
+          <li className="sidebarListItem">
+            <AiFillCar className="sidebarIcon" />
+            <Link href="/" className="sidebarListItemText">
+              Vasıta
+            </Link>
+            <li className="li-title">Otomobil</li>
+            <li className="li-title">Arazi,SUV & Pickup</li>
+            <li className="li-title">Motosiklet</li>
+            <li className="li-title">Minivan & Panelvan</li>
+            <li className="li-title">Ticari Araçlar</li>
+            <li className="li-title">Elektirikli Araçlar</li>
+            <li className="li-title">Kiralık Araçlar</li>
+            <li className="li-title">Hasarlı Araçlar</li>
           </li>
         </ul>
       </div>
