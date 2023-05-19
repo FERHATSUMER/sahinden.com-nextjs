@@ -7,11 +7,13 @@ function Header() {
     <div className="header-container">
       <img className="img" src="https://s0.shbdn.com/assets/images/sahibinden_logo_v13012023:a4a65c5ace0e80eac6171317531b4611.png" alt="sahibinden-logo" />
       <div className="input-container">
+      <FaSearch className="search-icon" />
+
         <input
           className="input"
           placeholder="kelime, ilan no veya mağaza adı ile ara"
+          
         />
-        <FaSearch className="search-icon" />
       </div>
       <Link href="/" className="detayli-arama">
         Detaylı Arama
