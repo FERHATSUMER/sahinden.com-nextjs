@@ -2,3 +2,9 @@
 const nextConfig = {}
 
 module.exports = nextConfig
+module.exports = {
+    experiments: {
+      topLevelAwait: true,
+    },
+  };
+  
