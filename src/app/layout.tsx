@@ -2,7 +2,6 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Header from '../components/header/Header';
 import Sidebar from '../components/sidebar/Sidebar';
-import Mongodb from './mongodb/Mongodb';
 
 const inter = Inter({ subsets: ['latin'] })
 

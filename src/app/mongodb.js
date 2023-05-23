@@ -1,8 +1,9 @@
 import mongoose from 'mongoose';
 
-const Mongodb = async () => {
+const connectToDatabase = async () => {
   try {
-    await mongoose.connect('mongodb+srv://ferhat:<password>@sahibinden.ehok4qf.mongodb.net/?retryWrites=true&w=majority', {
+    const uri = 'mongodb+srv://ferhat:<password>@sahibinden.ehok4qf.mongodb.net/?retryWrites=true&w=majority';
+    await mongoose.connect(uri, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
@@ -12,4 +13,4 @@ const Mongodb = async () => {
   }
 };
 
-export default Mongodb;
+export default connectToDatabase;
