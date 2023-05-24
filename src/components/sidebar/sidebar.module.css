@@ -41,5 +41,10 @@
   margin-bottom: 5px;
   margin-left: 21px;
   font-weight: bold;
+}
+.nestedList{
   list-style-type: none;
+  position: relative;
+  left: -10px;
+  top: 3px;
 }
