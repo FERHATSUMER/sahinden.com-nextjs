@@ -2,6 +2,7 @@ import Link from "next/link";
 import './header.css';
 import { FaSearch } from "react-icons/fa";
 
+
 function Header() {
   return (
     <div className="header-container">
