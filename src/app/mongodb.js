@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const connectToDatabase = async () => {
   try {
-    const uri = 'mongodb+srv://ferhat:<password>@sahibinden.ehok4qf.mongodb.net/?retryWrites=true&w=majority';
+    const uri = 'mongodb+srv://ferhat:4231ferhat@sahibinden.ehok4qf.mongodb.net/?retryWrites=true&w=majority';
     await mongoose.connect(uri, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
