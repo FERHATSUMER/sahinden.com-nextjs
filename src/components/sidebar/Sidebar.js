@@ -10,81 +10,81 @@ import {
   BsHouseHeartFill
 } from "react-icons/bs";
 
-import "./sidebar.css";
+import styles from './sidebar.module.css';
 
 function Sidebar() {
   return (
-    <div className="sidebar">
-      <div className="sidebarWrapper">
-        <ul className="sidebarList">
-          <li className="sidebarListItem">
-            <TbHomeSearch className="sidebarIcon" />
-            <Link href="/" className="sidebarListItemText">
+    <div className={styles.sidebar}>
+      <div className={styles.sidebarWrapper}>
+        <ul className={styles.sidebarList}>
+          <li className={styles.sidebarListItem}>
+            <TbHomeSearch className={styles.sidebarIcon} />
+            <Link href="/" className={styles.sidebarListItemText}>
               Evim Yuvan Olsun
             </Link>
           </li>
-          <li className="sidebarListItem">
-            <BsFillExclamationCircleFill className="sidebarIcon" />
-            <Link href="/" className="sidebarListItemText">
+          <li className={styles.sidebarListItem}>
+            <BsFillExclamationCircleFill className={styles.sidebarIcon} />
+            <Link href="/" className={styles.sidebarListItemText}>
               Acil Acil
             </Link>
           </li>
 
-          <li className="sidebarListItem">
-            <TbClockHour3 className="sidebarIcon" />
-            <Link href="/" className="sidebarListItemText">
+          <li className={styles.sidebarListItem}>
+            <TbClockHour3 className={styles.sidebarIcon} />
+            <Link href="/" className={styles.sidebarListItemText}>
               Son 48 Saat / 1 Hafta / 1 Ay
             </Link>
           </li>
 
-          <li className="sidebarListItem">
-            <RiCarFill className="sidebarIcon" />
-            <Link href="/" className="sidebarListItemText">
+          <li className={styles.sidebarListItem}>
+            <RiCarFill className={styles.sidebarIcon} />
+            <Link href="/" className={styles.sidebarListItemText}>
               Oto360
             </Link>
-            <ul className="nestedList">
-              <li className="li-title">S-Aracım</li>
-              <li className="li-title">Tümünü Göster</li>
+            <ul className={styles.nestedList}>
+              <li className={styles.liTitle}>S-Aracım</li>
+              <li className={styles.liTitle}>Tümünü Göster</li>
             </ul>
           </li>
 
-          <li className="sidebarListItem">
-            <BsFillHouseCheckFill className="sidebarIcon" />
-            <Link href="/" className="sidebarListItemText">
+          <li className={styles.sidebarListItem}>
+            <BsFillHouseCheckFill className={styles.sidebarIcon} />
+            <Link href="/" className={styles.sidebarListItemText}>
               Emlak360
             </Link>
           </li>
 
-          <li className="sidebarListItem">
-            <BsHouseHeartFill className="sidebarIcon" />
-            <Link href="/" className="sidebarListItemText">
+          <li className={styles.sidebarListItem}>
+            <BsHouseHeartFill className={styles.sidebarIcon} />
+            <Link href="/" className={styles.sidebarListItemText}>
               Emlak
             </Link>
-            <ul className="nestedList">
-              <li className="li-title">Konut</li>
-              <li className="li-title">Iş Yeri</li>
-              <li className="li-title">Arsa</li>
-              <li className="li-title">Konut Projeleri</li>
-              <li className="li-title">Bina</li>
-              <li className="li-title">Devre Mülk</li>
-              <li className="li-title">Turistlik yerler</li>
+            <ul className={styles.nestedList}>
+              <li className={styles.liTitle}>Konut</li>
+              <li className={styles.liTitle}>Iş Yeri</li>
+              <li className={styles.liTitle}>Arsa</li>
+              <li className={styles.liTitle}>Konut Projeleri</li>
+              <li className={styles.liTitle}>Bina</li>
+              <li className={styles.liTitle}>Devre Mülk</li>
+              <li className={styles.liTitle}>Turistlik yerler</li>
             </ul>
           </li>
 
-          <li className="sidebarListItem">
-            <AiFillCar className="sidebarIcon" />
-            <Link href="/" className="sidebarListItemText">
+          <li className={styles.sidebarListItem}>
+            <AiFillCar className={styles.sidebarIcon} />
+            <Link href="/" className={styles.sidebarListItemText}>
               Vasıta
             </Link>
-            <ul className="nestedList">
-              <li className="li-title">Otomobil</li>
-              <li className="li-title">Arazi, SUV & Pickup</li>
-              <li className="li-title">Motosiklet</li>
-              <li className="li-title">Minivan & Panelvan</li>
-              <li className="li-title">Ticari Araçlar</li>
-              <li className="li-title">Elektrikli Araçlar</li>
-              <li className="li-title">Kiralık Araçlar</li>
-              <li className="li-title">Hasarlı Araçlar</li>
+            <ul className={styles.nestedList}>
+              <li className={styles.liTitle}>Otomobil</li>
+              <li className={styles.liTitle}>Arazi, SUV & Pickup</li>
+              <li className={styles.liTitle}>Motosiklet</li>
+              <li className={styles.liTitle}>Minivan & Panelvan</li>
+              <li className={styles.liTitle}>Ticari Araçlar</li>
+              <li className={styles.liTitle}>Elektrikli Araçlar</li>
+              <li className={styles.liTitle}>Kiralık Araçlar</li>
+              <li className={styles.liTitle}>Hasarlı Araçlar</li>
             </ul>
           </li>
         </ul>
