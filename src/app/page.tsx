@@ -1,11 +1,9 @@
-import Feed from '../components/feed/Feed'
-
-
+import Feed from '../components/feed/Feed';
 export default function Home() {
 
   return (
 <div>
-  <Feed/>
+  <Feed />
 </div>
   )
 }

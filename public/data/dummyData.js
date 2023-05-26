@@ -1,5 +1,6 @@
-export default Post=[
+const dummyData=[
     {
+      "id":1,
       "isim": "Ayşe",
       "soyisim": "Yılmaz",
       "telefon_numarasi": "555-123-4567",
@@ -11,6 +12,7 @@ export default Post=[
       "resim_url": "https://example.com/ayse.jpg"
     },
     {
+      "id":2,
       "isim": "Mehmet",
       "soyisim": "Demir",
       "telefon_numarasi": "555-987-6543",
@@ -22,6 +24,7 @@ export default Post=[
       "resim_url": "https://example.com/mehmet.jpg"
     },
     {
+      "id":3,
       "isim": "Fatma",
       "soyisim": "Kaya",
       "telefon_numarasi": "555-789-1234",
@@ -33,6 +36,7 @@ export default Post=[
       "resim_url": "https://example.com/fatma.jpg"
     },
     {
+      "id":4,
       "isim": "Ali",
       "soyisim": "Şahin",
       "telefon_numarasi": "555-456-7890",
@@ -44,6 +48,7 @@ export default Post=[
       "resim_url": "https://example.com/ali.jpg"
     },
     {
+      "id":5,
       "isim": "Zeynep",
       "soyisim": "Öztürk",
       "telefon_numarasi": "555-321-0987",
@@ -55,6 +60,7 @@ export default Post=[
       "resim_url": "https://example.com/zeynep.jpg"
     },
     {
+      "id":6,
       "isim": "John",
       "soyisim": "Smith",
       "telefon_numarasi": "555-111-2222",
@@ -66,6 +72,7 @@ export default Post=[
       "resim_url": "https://example.com/john.jpg"
     },
     {
+      "id":7,
       "isim": "Emma",
       "soyisim": "Johnson",
       "telefon_numarasi": "555-333-4444",
@@ -77,6 +84,7 @@ export default Post=[
       "resim_url": "https://example.com/emma.jpg"
     },
     {
+      "id":8,
       "isim": "David",
       "soyisim": "Brown",
       "telefon_numarasi": "555-555-6666",
@@ -88,6 +96,7 @@ export default Post=[
       "resim_url": "https://example.com/david.jpg"
     },
     {
+      "id":9,
       "isim": "Sophia",
       "soyisim": "Davis",
       "telefon_numarasi": "555-777-8888",
@@ -99,6 +108,7 @@ export default Post=[
       "resim_url": "https://example.com/sophia.jpg"
     },
     {
+      "id":10,
       "isim": "Ethan",
       "soyisim": "Wilson",
       "telefon_numarasi": "555-999-0000",
@@ -110,4 +120,4 @@ export default Post=[
       "resim_url": "https://example.com/ethan.jpg"
     }
   ]
-  
+  export default dummyData
