@@ -1,3 +1,5 @@
+import Data from '../assets/data.json';
+console.log(Data)
 
 const Feed = ({
   araba_modeli,
@@ -8,13 +10,12 @@ const Feed = ({
   resim_url,
 })=>{
     <div className="card-container">
-      <div key={id} className="container">
+      <div  className="container">
         <div className="card">
-          <img src={img} alt="resim" className="photo" />
           <div className="intro">
             <h1>{araba_modeli}</h1>
             <h3>{uretim_yili}</h3>
-            <h4>{about}</h4>
+            <h4>{araba_markasi}</h4>
           </div>
         </div>
       </div>

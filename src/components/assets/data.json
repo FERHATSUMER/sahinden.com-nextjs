@@ -1,4 +1,4 @@
-const dummyData=[
+[
     {
       "id":1,
       "isim": "Ayşe",
@@ -120,4 +120,3 @@ const dummyData=[
       "resim_url": "https://example.com/ethan.jpg"
     }
   ]
-  export default dummyData
